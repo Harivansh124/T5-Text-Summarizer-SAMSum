@@ -17,8 +17,6 @@ A fine-tuned **T5 Transformer** (HuggingFace) that turns any block of text — c
 
 Type or paste any content → get back a concise summary, generated in real time via beam search.
 
-> 🌐 **Live Demo:** _not deployed yet — follow [`DEPLOYMENT.md`](DEPLOYMENT.md) to get a public HuggingFace Spaces link, then replace this line._
-
 ## 📌 Problem
 
 Reading long conversations, articles, or notes end-to-end just to extract the gist is slow. This project fine-tunes a pretrained **T5 transformer** — a text-to-text Generative AI model — to compress arbitrary text into a fluent one-line summary, framing summarization the way T5 was designed to be used: **input text in, output text out.**
@@ -90,8 +88,6 @@ T5-Text-Summarizer-SAMSum/
 ├── text_summarizer.ipynb       # Training notebook (data prep → fine-tuning → save)
 ├── requirements.txt
 ├── .gitignore
-├── DEPLOYMENT.md               # Guide: get a live public URL (HuggingFace Spaces)
-├── deploy/huggingface-space/   # Ready-to-push Docker deployment (Dockerfile, requirements, Space README)
 ├── assets/
 │   ├── social_preview.png
 │   ├── architecture_flow.png
